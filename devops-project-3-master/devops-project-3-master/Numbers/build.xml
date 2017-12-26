@@ -6,7 +6,9 @@
       <fileset dir="lib">
          <include name="**/*.jar"/>
       </fileset>
+   	
    </path>
+	
    <target name="init">
       <mkdir dir="bin"/>
       <mkdir dir="report"/>
@@ -42,9 +44,5 @@
          </manifest>
       </jar>
    </target>
-   <target name="clean">
-      <delete dir="bin"/>
-      <delete dir="report"/>
-      <delete file="${jar}"/>
-   </target>
+   
 </project>
