@@ -49,6 +49,11 @@ class TestDemo {
 	//	fail("Not yet implemented");
 		assertEquals( 6,TestClass.minFunction(11, 6));
 	}
+	@Test
+	void test1() {
+	//	fail("Not yet implemented");
+		assertEquals( 5,TestClass.minFunction(11, 6));
+	}
 	//
 	
 	
