@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="instance-1" name="HelloWorldTest" skipped="0" tests="1" time="0.0" timestamp="2017-12-27T12:40:10">
+<testsuite errors="1" failures="0" hostname="instance-1" name="HelloWorldTest" skipped="0" tests="1" time="0.0" timestamp="2017-12-27T13:16:32">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -37,7 +37,7 @@
     <property name="os.version" value="10.0" />
     <property name="path.separator" value=";" />
     <property name="java.vm.version" value="9.0.1+11" />
-    <property name="report.dir" value="${build.dir}/junitreport" />
+    <property name="report.dir" value="${build.dir}/Reports" />
     <property name="user.variant" value="" />
     <property name="ant.library.dir" value="C:\apache-ant-1.10.1\lib" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />

@@ -28,4 +28,18 @@ public class HelloWorldTest {
 	public void testHelloWorld1() {
 		assertEquals("Pass test","1","1");
 	}
+	@Test
+	public final void testMinFunction() {
+		
+		assertEquals("This isworking", 6, HelloWorld.minFunction(11,6));
+	
+		
+	}
+	@Test
+	public final void testMinFunction1() {
+		
+		assertEquals("This isw not orking", 2, HelloWorld.minFunction(11,6));
+	
+		
+	}
 }
