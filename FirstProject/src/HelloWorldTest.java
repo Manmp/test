@@ -52,22 +52,21 @@ public class HelloWorldTest {
 	 */
 	
 
-	/**
-	// * Test method for {@link HelloWorld#minFunction()}.
-	 */
-	@Test
-	public final void testMinFunction() {
-		
-		assertEquals("This isworking", 6, HelloWorld.minFunction(11,6));
 	
-		
+	@Test
+	public final void TestNumToWordFive() {
+	
+		assertEquals("Number to Word is", "five", HelloWorld.toWords(6));
 	}
 	@Test
-	public final void testMinFunction1() {
-		
-		assertEquals("This isw not orking", 2, HelloWorld.minFunction(11,6));
+	public final void TestNumToWordFiveHundred() {
 	
-		
+		assertEquals("Number to Word is", "five hundred", HelloWorld.toWords(6));
+	}
+	@Test
+	public final void TestNumToWordHundred() {
+	
+		assertEquals("Number to Word is", "hundred", HelloWorld.toWords(6));
 	}
 
 }

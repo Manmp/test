@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="3" hostname="instance-1" name="HelloWorldTest" skipped="0" tests="3" time="0.088" timestamp="2017-12-27T17:22:34">
+<testsuite errors="1" failures="0" hostname="instance-1" name="NumberWordsTests" skipped="0" tests="1" time="0.0" timestamp="2017-12-27T17:03:09">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -15,10 +15,11 @@
     <property name="build.dir" value="build" />
     <property name="user.language" value="en" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin" />
-    <property name="ant.project.name" value="FirstProject" />
+    <property name="ant.project.name" value="Number" />
     <property name="java.vm.compressedOopsMode" value="32-bit" />
     <property name="java.version" value="9.0.1" />
     <property name="user.timezone" value="" />
+    <property name="ant.file.Number" value="C:\New folder\devops-project-3-master\devops-project-3-master\Numbers\build.xml" />
     <property name="sun.arch.data.model" value="64" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1252" />
@@ -30,12 +31,10 @@
     <property name="user.country" value="US" />
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1" />
     <property name="java.vm.info" value="mixed mode" />
-    <property name="main-class" value="HelloWorld" />
-    <property name="ant.file" value="C:\New folder\FirstProject\build.xml" />
+    <property name="main-class" value="devops.numbers.NumberWordsApplication" />
+    <property name="ant.file" value="C:\New folder\devops-project-3-master\devops-project-3-master\Numbers\build.xml" />
     <property name="os.version" value="10.0" />
-    <property name="ant.file.FirstProject" value="C:\New folder\FirstProject\build.xml" />
     <property name="path.separator" value=";" />
-    <property name="ant.file.type.FirstProject" value="file" />
     <property name="java.vm.version" value="9.0.1+11" />
     <property name="report.dir" value="${build.dir}/junitreport" />
     <property name="user.variant" value="" />
@@ -47,6 +46,7 @@
     <property name="user.script" value="" />
     <property name="user.home" value="C:\Users\cmanisha" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.type.Number" value="file" />
     <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\GooGet;C:\Program Files\Google\Compute Engine\metadata_scripts;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Google\Compute Engine\sysprep;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk-9.0.1\bin;C:\apache-ant-1.10.1\bin;C:\Users\cmanisha\AppData\Local\Microsoft\WindowsApps;;." />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
@@ -64,10 +64,10 @@
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
     <property name="os.arch" value="amd64" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="user.dir" value="C:\New folder\FirstProject" />
+    <property name="user.dir" value="C:\New folder\devops-project-3-master\devops-project-3-master\Numbers" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="basedir" value="C:\New folder\FirstProject" />
+    <property name="basedir" value="C:\New folder\devops-project-3-master\devops-project-3-master\Numbers" />
     <property name="ant.java.version" value="9" />
     <property name="ant.core.lib" value="C:\apache-ant-1.10.1\lib\ant.jar" />
     <property name="sun.stderr.encoding" value="cp437" />
@@ -76,39 +76,17 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="HelloWorldTest" name="TestNumToWordFive" time="0.011">
-    <failure message="Number to Word is expected:&lt;[five]&gt; but was:&lt;[Not Implemented]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[five]&gt; but was:&lt;[Not Implemented]&gt;
-	at HelloWorldTest.TestNumToWordFive(HelloWorldTest.java:59)
+  <error message="NumberWordsTests" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: NumberWordsTests
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:466)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:563)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="HelloWorldTest" name="TestNumToWordFiveHundred" time="0.007">
-    <failure message="Number to Word is expected:&lt;[five hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[five hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;
-	at HelloWorldTest.TestNumToWordFiveHundred(HelloWorldTest.java:64)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
-  <testcase classname="HelloWorldTest" name="TestNumToWordHundred" time="0.001">
-    <failure message="Number to Word is expected:&lt;[hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;
-	at HelloWorldTest.TestNumToWordHundred(HelloWorldTest.java:69)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-</failure>
-  </testcase>
+</error>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -62,6 +62,7 @@
 	            <fileset dir="${report.dir}" includes="TEST-*.xml"/>
 	            <report todir="${report.dir}"/>
 	        </junitreport>
+	    	<fail if="${testsFailed}" message="Some of the unit tests failed." />
 	    </target>
 
 </project>

@@ -14,29 +14,19 @@ public class HelloWorld {
 	public HelloWorld() {	// TODO Auto-generated constructor stub	
 		
 	}
-
-	/**
-	 * @param args
-	 */
+	public static String toWords( int number ) {
+		String result = "Not Implemented" ;
+		return result.trim() ;
+	}
 		public static void main(String[] args) 
 		{
 		      int a = 11;
-		      int b = 6;
-		      int c = minFunction(a, b);
-		      System.out.println("Minimum Value = " + c);
+		      
+		      String NumWord=toWords(a);
+		      System.out.println("Number "+ a + " to Work is  " + NumWord);
+		      
 		 }     
 	 
-		 /** returns the minimum of two numbers */
-		  public static int minFunction(int n1, int n2) 
-		  {
-		      int min;
-		      if (n1 > n2)
-		         min = n2;
-		      else
-		         min = n1;
-
-		      return min; 
-		   }
-	 
+		 
 	     
 	}
