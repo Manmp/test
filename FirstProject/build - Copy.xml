@@ -5,7 +5,6 @@
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. -->
 <project basedir="." default="build" name="FirstProject">
-	 <path id="application" location="${jar.dir}/FirstProject.jar"/>
     <property environment="env"/>
     <property name="junit.output.dir" value="junit"/>
     <property name="debuglevel" value="source,lines,vars"/>
@@ -62,14 +61,11 @@
     </target>
     <target name="HelloWorldTest">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="yes">
-            
-            
-        	 <classpath refid="run.HelloWorldTest.classpath">
-        	                <path refid="classpath"/>
-        	                <path refid="application"/>
-        	            </classpath>
-            
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="HelloWorldTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.HelloWorldTest.classpath"/>
         </junit>
     </target>
     <target name="junitreport">
