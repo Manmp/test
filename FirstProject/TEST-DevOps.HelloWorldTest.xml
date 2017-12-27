@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="instance-1" name="HelloWorldTest" skipped="0" tests="3" time="0.82" timestamp="2017-12-27T19:18:34">
+<testsuite errors="0" failures="0" hostname="instance-1" name="DevOps.HelloWorldTest" skipped="0" tests="5" time="1.199" timestamp="2017-12-27T19:18:32">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -76,9 +76,11 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="HelloWorldTest" name="TestNumToWordFive" time="0.001" />
-  <testcase classname="HelloWorldTest" name="TestNumToWordFiveHundred" time="0.001" />
-  <testcase classname="HelloWorldTest" name="TestNumToWordHundred" time="0.0" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWord789" time="0.002" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWord999" time="0.001" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordFive" time="0.0" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordFiveHundred" time="0.0" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordHundred" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

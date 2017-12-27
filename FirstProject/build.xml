@@ -50,7 +50,7 @@
 	            
 	            <formatter type="xml"/>
 	        	<batchtest>
-	        	  <fileset dir=".\src">
+	        	  <fileset dir=".\src\">
 	        	            <include name="**/*Test*" />
 	        	       </fileset>
 	        	    </batchtest>
