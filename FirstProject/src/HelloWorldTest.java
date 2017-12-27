@@ -56,17 +56,17 @@ public class HelloWorldTest {
 	@Test
 	public final void TestNumToWordFive() {
 	
-		assertEquals("Number to Word is", "five", HelloWorld.toWords(6));
+		assertEquals("Number to Word is", "Five", HelloWorld.convert(5));
 	}
 	@Test
 	public final void TestNumToWordFiveHundred() {
 	
-		assertEquals("Number to Word is", "five hundred", HelloWorld.toWords(6));
+		assertEquals("Number to Word is", "Five Hundred", HelloWorld.convert(500));
 	}
 	@Test
 	public final void TestNumToWordHundred() {
 	
-		assertEquals("Number to Word is", "hundred", HelloWorld.toWords(6));
+		assertEquals("Number to Word is", "One Hundred", HelloWorld.convert(100));
 	}
 
 }
