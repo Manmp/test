@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="instance-1" name="HelloWorldTest" skipped="0" tests="3" time="0.689" timestamp="2017-12-27T18:48:04">
+<testsuite errors="0" failures="5" hostname="instance-1" name="DevOps.HelloWorldTest" skipped="0" tests="5" time="1.356" timestamp="2017-12-27T18:44:19">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -76,9 +76,61 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="junit" />
   </properties>
-  <testcase classname="HelloWorldTest" name="TestNumToWordFive" time="0.007" />
-  <testcase classname="HelloWorldTest" name="TestNumToWordFiveHundred" time="0.0" />
-  <testcase classname="HelloWorldTest" name="TestNumToWordHundred" time="0.0" />
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWord789" time="0.015">
+    <failure message="Number to Word is expected:&lt;[Seven Hundred Eighty Nine]&gt; but was:&lt;[Not Implemented]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[Seven Hundred Eighty Nine]&gt; but was:&lt;[Not Implemented]&gt;
+	at DevOps.HelloWorldTest.TestNumToWord789(HelloWorldTest.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWord999" time="0.004">
+    <failure message="Number to Word is expected:&lt;N[ine Hundred Ninety Nine]&gt; but was:&lt;N[ot Implemented]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;N[ine Hundred Ninety Nine]&gt; but was:&lt;N[ot Implemented]&gt;
+	at DevOps.HelloWorldTest.TestNumToWord999(HelloWorldTest.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordFive" time="0.001">
+    <failure message="Number to Word is expected:&lt;[One]&gt; but was:&lt;[Not Implemented]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[One]&gt; but was:&lt;[Not Implemented]&gt;
+	at DevOps.HelloWorldTest.TestNumToWordFive(HelloWorldTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordFiveHundred" time="0.003">
+    <failure message="Number to Word is expected:&lt;[Five Hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[Five Hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;
+	at DevOps.HelloWorldTest.TestNumToWordFiveHundred(HelloWorldTest.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="DevOps.HelloWorldTest" name="TestNumToWordHundred" time="0.002">
+    <failure message="Number to Word is expected:&lt;[One Hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Number to Word is expected:&lt;[One Hundr]ed&gt; but was:&lt;[Not Implement]ed&gt;
+	at DevOps.HelloWorldTest.TestNumToWordHundred(HelloWorldTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
