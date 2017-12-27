@@ -3,7 +3,7 @@ package devops.numbers;
 public class NumberWords {
 
 	public String toWords( int number ) {
-		String result = "" ;
+		String result = "one" ;
 		return result.trim() ;
 	}
 

@@ -13,8 +13,14 @@ public class NumberWordsTests {
 	}
 
 	@Test
-	public final void numberOutOfRangeReturnsError() {
+	public void numberOutOfRangeReturnsError() {
 		Assert.assertEquals( "Error", "Number out of range", numberWords.toWords( -1 ) ) ;
 	}
-
+	
+	
+	@Test
+		public void NumberToEnglishShouldReturnOne()
+			{
+			Assert.assertEquals( "one", "one", numberWords.toWords( 1 ) ) ;
+			}
 }
